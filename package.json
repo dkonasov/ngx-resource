@@ -1,0 +1,36 @@
+{
+  "name": "ngx-resource",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bundles/ngx-resource.umd.js",
+  "scripts": {
+    "test": "karma start",
+    "build": "webpack"
+  },
+  "author": "Konasov Dmitriy",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/common": "^5.2.7",
+    "@angular/core": "^5.2.7"
+  },
+  "devDependencies": {
+    "@angular/platform-browser": "^5.2.7",
+    "@angular/platform-browser-dynamic": "^5.2.7",
+    "@types/jasmine": "^2.8.6",
+    "@types/node": "^9.4.6",
+    "clean-webpack-plugin": "^0.1.19",
+    "jasmine-core": "2.9.0",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-cli": "^1.0.1",
+    "karma-jasmine": "^1.1.1",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^2.0.13",
+    "rxjs": "^5.5.6",
+    "ts-loader": "^4.0.1",
+    "tsickle": "^0.27.2",
+    "typescript": ">=2.4.2 <2.7",
+    "webpack": "^4.1.0",
+    "zone.js": "^0.8.20"
+  }
+}
