@@ -4,7 +4,7 @@ import { Observable } from 'rxjs/Observable';
 
 @Injectable()
 export class NgxResourceService<T, R = T[], I = number> {
-    protected _apiEndpoint: string;
+  protected _apiEndpoint: string;
   protected _httpClient: HttpClient;
 
   public list(
