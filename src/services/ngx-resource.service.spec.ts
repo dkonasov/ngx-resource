@@ -124,6 +124,22 @@ describe('ngx-resource service test', () => {
     );
 
     it (
+        'list method must return headers and params if they are specified',
+        inject([
+            HttpTestingController,
+            TestRestService
+        ], fakeAsync((backend: HttpTestingController, service: TestRestService) => {
+            const headers = new HttpHeaders({foo: 'bar'});
+            let response: HttpResponse<any>;
+            service.list().toPromise().then(res => response = res);
+            const testRequest = backend.expectOne(req => true);
+            testRequest.flush([], { headers: headers });
+            tick();
+            expect(response.headers.get('foo')).toBe('bar');
+        }))
+    );
+
+    it (
         'get method must return HttpResponse',
         inject([
             HttpTestingController,
