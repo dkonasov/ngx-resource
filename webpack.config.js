@@ -17,7 +17,7 @@ module.exports = {
   resolve: {
     extensions: ['.ts', '.js']
   },
-  externals: [/^\@angular\//, /^rxjs\//],
+  externals: [/^\@angular\//, /^rxjs\//, /^rxjs$/],
   entry: root('src/index.ts'),
   output: {
     path: root('bundles'),
