@@ -1,5 +1,5 @@
 import { HttpHeaders, HttpParams, HttpResponse, HttpClient } from "@angular/common/http";
-import { Observable } from "rxjs/Observable";
+import { Observable } from "rxjs";
 
 export declare class NgxResourceService<T, R = T[], I = number> {
     protected _apiEndpoint: string;
