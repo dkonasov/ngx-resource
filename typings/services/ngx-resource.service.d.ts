@@ -46,5 +46,7 @@ export declare class NgxResourceService<T, R = T[], I = number> {
         }
     ): Observable<HttpResponse<void>>;
 
+    protected _beforeRequest: Observable<void>;
+
     constructor(httpClient: HttpClient);
 }
