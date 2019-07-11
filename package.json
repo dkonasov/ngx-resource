@@ -10,15 +10,15 @@
   "author": "Konasov Dmitriy",
   "license": "MIT",
   "peerDependencies": {
-    "@angular/common": "^7.0.0",
-    "@angular/core": "^7.0.0"
+    "@angular/common": "^8.0.0",
+    "@angular/core": "^8.0.0"
   },
   "devDependencies": {
-    "@angular/common": "^7.0.0",
-    "@angular/compiler": "^7.0.0",
-    "@angular/core": "^7.0.0",
-    "@angular/platform-browser": "^7.0.0",
-    "@angular/platform-browser-dynamic": "^7.0.0",
+    "@angular/common": "^8.0.0",
+    "@angular/compiler": "^8.0.0",
+    "@angular/core": "^8.0.0",
+    "@angular/platform-browser": "^8.0.0",
+    "@angular/platform-browser-dynamic": "^8.0.0",
     "@types/jasmine": "^2.8.6",
     "@types/node": "^9.4.6",
     "clean-webpack-plugin": "^0.1.19",
@@ -32,9 +32,9 @@
     "rxjs": "^6.0.0",
     "ts-loader": "^4.0.1",
     "tsickle": "^0.27.2",
-    "typescript": "~3.1.1",
+    "typescript": "~3.4.5",
     "webpack": "^4.1.0",
     "webpack-cli": "^2.0.12",
-    "zone.js": "~0.8.26"
+    "zone.js": "~0.9.1"
   }
 }
