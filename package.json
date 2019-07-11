@@ -1,6 +1,6 @@
 {
   "name": "ngx-resource",
-  "version": "1.0.0",
+  "version": "8.0.0",
   "description": "",
   "main": "bundles/ngx-resource.umd.js",
   "scripts": {
