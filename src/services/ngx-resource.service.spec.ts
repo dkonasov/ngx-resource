@@ -46,6 +46,7 @@ describe('ngx-resource service test', () => {
         ], fakeAsync((backend: HttpTestingController, service: TestRestService) => {
             let response: any;
             service.list().toPromise().then(res => response = res);
+            tick();
             backend.expectOne(req => true).flush([]);
             tick();
             expect(response instanceof HttpResponse).toBe(true);
