@@ -1,11 +1,20 @@
 {
   "name": "ngx-resource",
-  "version": "9.0.1",
+  "version": "9.0.2",
   "description": "",
-  "main": "bundles/ngx-resource.umd.js",
+  "main": "lib/bundles/ngx-resource.umd.js",
+  "module": "lib/fesm5/ngx-resource.js",
+  "es2015": "lib/fesm2015/ngx-resource.js",
+  "esm5": "lib/esm5/textarea/ngx-resource.js",
+  "esm2015": "lib/esm2015/textarea/ngx-resource.js",
+  "fesm5": "lib/fesm5/ngx-resource.js",
+  "fesm2015": "lib/fesm2015/ngx-resource.js",
+  "typings": "lib/ngx-resource.d.ts",
+  "metadata": "lib/ngx-resource.metadata.json",
+  "$schema": "./node_modules/ng-packagr/package.schema.json",
   "scripts": {
     "test": "karma start",
-    "build": "webpack"
+    "build": "ng-packagr -p package.json"
   },
   "author": "Konasov Dmitriy",
   "license": "MIT",
@@ -16,6 +25,7 @@
   "devDependencies": {
     "@angular/common": "~9.0.1",
     "@angular/compiler": "~9.0.1",
+    "@angular/compiler-cli": "^9.0.2",
     "@angular/core": "~9.0.1",
     "@angular/platform-browser": "~9.0.1",
     "@angular/platform-browser-dynamic": "~9.0.1",
@@ -29,6 +39,7 @@
     "karma-jasmine": "^1.1.1",
     "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^2.0.13",
+    "ng-packagr": "^9.0.1",
     "rxjs": "~6.5.4",
     "ts-loader": "^4.0.1",
     "tsickle": "^0.27.2",
@@ -36,5 +47,11 @@
     "webpack": "^4.1.0",
     "webpack-cli": "^2.0.12",
     "zone.js": "~0.10.2"
+  },
+  "ngPackage": {
+    "lib": {
+      "entryFile": "src/index.ts"
+    },
+    "dest": "lib"
   }
 }
