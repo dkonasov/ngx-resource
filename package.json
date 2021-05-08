@@ -39,7 +39,7 @@
     "karma-jasmine": "^1.1.1",
     "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^2.0.13",
-    "ng-packagr": "^9.0.1",
+    "ng-packagr": "^10.1.1",
     "rxjs": "~6.5.4",
     "ts-loader": "^4.0.1",
     "tsickle": "^0.27.2",
