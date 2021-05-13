@@ -1,23 +1,25 @@
 {
   "name": "ngx-resource",
-  "version": "9.0.1",
+  "version": "9.0.2",
   "description": "",
   "main": "bundles/ngx-resource.umd.js",
+  "module": "fesm2015/ngx-resource.js",
+  "es2015": "fesm2015/ngx-resource.js",
+  "esm5": "lib/esm5/textarea/ngx-resource.js",
+  "esm2015": "esm2015/ngx-resource.js",
+  "fesm5": "lib/fesm5/ngx-resource.js",
+  "fesm2015": "fesm2015/ngx-resource.js",
+  "typings": "ngx-resource.d.ts",
+  "metadata": "ngx-resource.metadata.json",
   "$schema": "./node_modules/ng-packagr/package.schema.json",
   "author": "Konasov Dmitriy",
   "license": "MIT",
   "peerDependencies": {
     "@angular/common": "~9.0.1",
-    "@angular/core": "~9.0.1",
-    "tslib": "^1.10.0"
+    "@angular/core": "~9.0.1"
   },
-  "module": "fesm5/ngx-resource.js",
-  "es2015": "fesm2015/ngx-resource.js",
-  "esm5": "esm5/ngx-resource.js",
-  "esm2015": "esm2015/ngx-resource.js",
-  "fesm5": "fesm5/ngx-resource.js",
-  "fesm2015": "fesm2015/ngx-resource.js",
-  "typings": "ngx-resource.d.ts",
-  "metadata": "ngx-resource.metadata.json",
-  "sideEffects": false
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.10.0"
+  }
 }
