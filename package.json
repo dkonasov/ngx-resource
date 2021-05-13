@@ -1,6 +1,6 @@
 {
   "name": "ngx-resource",
-  "version": "9.0.2",
+  "version": "9.0.3",
   "description": "",
   "main": "lib/bundles/ngx-resource.umd.js",
   "module": "lib/fesm5/ngx-resource.js",
