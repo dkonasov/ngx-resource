@@ -20,13 +20,13 @@
   "license": "MIT",
   "peerDependencies": {
     "@angular/common": "~9.0.1",
-    "@angular/core": "~9.0.1"
+    "@angular/core": "~11.0.5"
   },
   "devDependencies": {
     "@angular/common": "~9.0.1",
     "@angular/compiler": "~9.1.13",
     "@angular/compiler-cli": "^9.0.2",
-    "@angular/core": "~9.0.1",
+    "@angular/core": "~11.0.5",
     "@angular/platform-browser": "~9.0.1",
     "@angular/platform-browser-dynamic": "~9.0.1",
     "@types/jasmine": "^2.8.6",
